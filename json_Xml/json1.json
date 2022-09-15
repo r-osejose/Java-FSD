@@ -1,0 +1,27 @@
+{
+  "*users*": [
+    {
+      "firstname": "Rose",
+      "lastname": "Jose",
+      "age": 22
+    },
+    {
+      "firstname": "Sona",
+      "lastname": "Mohan",
+      "age": 21
+    }
+  ],
+
+  "Subject": [
+    {
+      "name": "JSON",
+      "id": 1
+    },
+    "name",
+    :,
+    "Javascript",
+    "id",
+    :,
+    2
+  ]
+}

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<employee>
+		<employee>
+			<name>Rose Jose</name>
+			<id>235799</id>
+			<location>Trivandrum</location>
+			<position>Developer I</position>
+		</employee>
+		<Manager>
+			<name>Sona Mohan</name>
+			<id>1803142</id>
+			<location>Bangalore</location>
+		</Manager>
+		</employee>
+	
+</root>
