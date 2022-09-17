@@ -7,14 +7,6 @@ public class Equal {
         String s2="Rose";
         String s3="Sona";
         System.out.println(s1.equals(s2));
-        System.out.println(s1.equals(s3));
-        
-        
-
-
-
-   }
-
-
-
+        System.out.println(s1.equals(s3)); 
+         }
 }
