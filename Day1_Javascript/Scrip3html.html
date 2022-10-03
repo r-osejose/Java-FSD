@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script3</title>
+</head>
+<body><br />
+    First Number:<input type="text" id="first" /><br><br />
+    Second Number:<input type="text" id="second" /> <br><br />
+    <button type="button" id="bt1" onClick="lar()">Larger</button>
+    <p id="p1"> </p>
+    <script>
+   
+     function lar()
+    {
+    a=document.getElementById("first").value;
+    b=document.getElementById("second").value;
+    if(a>b)
+    {
+        let c=a;
+        document.getElementById("p1").innerHTML="Larger is "+c;
+    }
+
+    else
+    {
+        let c=b;
+        document.getElementById("p1").innerHTML="Larger is "+c;
+    }}
+    </script>
+
+</body>
+</html>
+

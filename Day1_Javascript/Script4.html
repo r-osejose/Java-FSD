@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    First Number:<input type="text" id="first" /><br><br />
+    Second Number:<input type="text" id="second" /> <br><br />
+    Third Number:<input type="text" id="third" /><br><br />
+    Fourth Number:<input type="text" id="fourth" /> <br><br />
+    Fifth Number:<input type="text" id="five" /> <br><br />
+    <button type="button" id="bt1" onClick="lar()">Larger</button>
+    <p id="p1"> </p>
+    <script>
+                 function lar() {
+                a = document.getElementById("first").value;
+                b = document.getElementById("second").value;
+                c = document.getElementById("third").value;
+                d = document.getElementById("fourth").value;
+                e = document.getElementById("five").value;
+                if (a > b && a > c && a > d && a > e) {
+                    let z = a;
+                    document.getElementById("p1").innerHTML = "Larger is " + z;
+                }
+                else if (b > c && b > d && b > e) {
+                    let z = b;
+                    document.getElementById("p1").innerHTML = "Larger is " + z;
+                
+            }
+
+        else if (c > d && c > e) {
+
+                let z = c;
+
+                document.getElementById("p1").innerHTML = "Larger is " + z;
+
+            }
+
+            else if (d > e) {
+
+                let z = d;
+
+                document.getElementById("p1").innerHTML = "Larger is " + z;
+
+            }
+
+            else {
+
+                let z = e;
+
+                document.getElementById("p1").innerHTML = "Larger is " + z;
+
+            }
+
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>
