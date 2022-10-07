@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <h3>JavaScript HTML DOM</h3>
+    <p>Hello World!</p>
+    <p>Hello UST!</p>
+    <p>Click the button to change the color.</p>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+function myFunction() {
+  const myCollection = document.getElementsByTagName("p");
+  for (let i = 0; i < myCollection.length; i++) {
+    myCollection[i].style.color = "red";
+  }
+}
+    </script>
+</body>
+</html>
